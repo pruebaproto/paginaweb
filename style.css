@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+* {
+ --tipletra: 'Rubik', serif;
+ --colfondo: rgba(1, 1, 49);
+ --colletra: rgb(255, 255, 255);
+ --colcaja: rgb(131, 255, 7);
+}
+body {
+  background-color: var(--colfondo);
+}
+#page-header {
+  background-color: var(--colfondo);
+  color: var(--colletra);
+  font-family: var(--tipletra);
+  letter-spacing: 3px;
+  font-size: 1.3;
+}
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container > div {
+  width: 75%;
+  margin-bottom: 1em;
+}
+/*NAV*/
+.container-nav {
+  height: 4.5em;
+  /*border: 1px solid rgb(250, 250, 250);*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  --grid-height: 3.5em;
+}
+.logo > .logo-link {
+  display: flex;
+  flex-direction: row;
+}
+.logo-img > img {
+  width: 3em;
+  height: 3em;
+}
+.logo-text > p {
+  margin-left: 0.5em;
+}
+.main {
+  display:grid;
+  grid-template-columns: auto auto;
+}
+.main-list {
+  display: inline;
+}
+.main-listlink > li {
+  margin:0.5em;
+}
+.main-listlink > li , a{
+  display: inline;
+  text-decoration: none;
+  color: var(--colletra);
+  transition: 0.3s;
+}
+
+.main-listlink >li:hover   {
+  background-color:rgb(0,227,0);
+  padding: 0.5em;
+  border-radius:1em;
+}
+.main-drop {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  cursor: pointer;
+  width:4em;
+  transition: 0.3s;
+}
+.main-drop:hover {
+  background-color:rgb(0,227,0);
+  padding: 0.03em;
+  border-radius:0.5em;
+}
+
+/* HEADER*/
+.container-init {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+.container-init > .text-background {
+  width: 40%;
+  margin: 1em ;
+}
+.text-background {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  z-index: 100;
+}
+.text-background > div {
+  width: 100%;
+}
+/*text*/
+.title-background {
+  display: flex;
+}
+.title > h1 {
+  display: block;
+  margin-top: 0;
+  text-align: start;
+  text-decoration:underline 5px solid white ;
+}
+.text > p {
+  margin-top: 0;
+  font-family:'Roboto Slab', serif;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  height: 2.5em;
+}
+
+.button > a {
+  cursor: pointer;
+  background-color:rgb(0,227,0);
+  border-radius: 1em;
+  padding: 0.7em;
+  transition: 0.1s;
+}
+.button > a:hover {
+  padding: 0.5em;
+}
+/* img*/
+.img-background {
+  z-index: 50;
+}
+.img-background > img {
+  margin-top: 1em;
+  height: 28em;
+  justify-self: end;
+}
+                                       /* Sobre mi*/
+
+
+                                        /* PORTAFOLIOS*/
+
+.container-portalios {
+  display: flex;
+  flex-flow: column wrap;
+  align-items:center;
+}
+.container-portalios > div {
+  width: 80%;
+}
+.text-portafolio {
+  text-align: center;
+  margin-bottom: -1em;
+}
+
+.content-portafolio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: -1em;
+}
+.content-portafolio > div {
+  width: 15em;
+  height: 11.5em;
+  margin: 1em auto;
+}
+.content-items {
+  display: flex;
+  flex-direction: column;
+
+  transition: 0.3s;
+}
+.content-items > div {
+  width: 15em;
+  height: 11.5em;
+  position: relative;
+}
+.content-items-imagen {
+  display: flex;
+  justify-content: center;
+  width: 15em;
+  position: absolute;
+}
+.content-items-imagen > img {
+  object-fit: cover;
+  height:11.4em;
+}
+.content-items-text > p {
+  position: relative;
+  text-align: center;
+  width: 15em;
+  top: 8em;
+}
+.content-items:hover {
+  margin-top: 0.5em;
+}
+.pagina-portafolio {
+  flex-basis: 0.6em;
+}
+.paginado {
+  display: flex;
+  justify-content: center;
+}
+.paginado > a {
+  cursor: pointer;
+  border-radius: 3em;
+  border: 2px solid rgb(0,227,0);
+  margin: 0.5em 0.2em ;
+  padding: 0.5em
+}
+.paginado > a:hover {
+  background-color: rgb(0,227,0);
+  margin-top: 0 ;
+  padding:0.6em;
+}
+
+
+
+
+
+

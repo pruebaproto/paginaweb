@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Developer Frontend Ulises</title>
+    <meta charset="UTF-8">
+    <link href="normalice.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c91d21f8dd.js" crossorigin="anonymous"></script>
+
+
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="page-header">
+      <div class="container">
+        <div class="container-nav">
+          <div class="logo">
+            <a href="index.html" class="logo-link">
+              <div class="logo-img">
+                <img src="./imagenes/logo1.png" alt="logo">
+              </div>
+              <div class="logo-text">
+                <p>DevUL</p>
+              </div>
+            </a>
+          </div>
+          <div class="main">
+            <div class="main-list">
+              <ul class="main-listlink">
+               <li><a href="forme.html">Sobre mí</a></li>
+               <li><a href="portafolios.html" >Portafolio</a></li>
+               <li><a href="contacto.html" >Contacto</a></li>
+              </ul>
+            </div>
+            <div class="main-drop">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+        <div class="container-init">
+          <div class="text-background">
+            <div class="title">
+              <h1>FULLSTACK</h1>
+            </div>
+            <div class="text">
+              <p>Soy un programador que te ayudará a realizar tu página web</P>
+            </div>
+            <div class="button">
+              <a href="portafolios.html">Ver portafolios</a>
+            </div>
+          </div>
+          <div class="img-background">
+            <img src="./imagenes/img-background.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
